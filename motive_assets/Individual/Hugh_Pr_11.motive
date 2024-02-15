@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile version="1">
+    <NodeAssets>
+        <rigid_body version="1.1" id="cbc44cf36550719d:9e45b330cee011ec">
+            <markers>
+                <marker id="0:ff91">
+                    <position>0.00186998,0.000188887,0.0708599</position>
+                    <size>0.012</size>
+                    <residual>0.000735472</residual>
+                    <label_id>1</label_id>
+                </marker>
+                <marker id="0:ff93">
+                    <position>0.00526965,0.000113845,-0.041667</position>
+                    <size>0.012</size>
+                    <residual>0.00060829</residual>
+                    <label_id>2</label_id>
+                </marker>
+                <marker id="0:ffa0">
+                    <position>-0.0840556,-0.000862479,-0.0112262</position>
+                    <size>0.012</size>
+                    <residual>0.000684663</residual>
+                    <label_id>3</label_id>
+                </marker>
+                <marker id="0:ffa2">
+                    <position>0.0461938,0.00027591,0.0048852</position>
+                    <size>0.012</size>
+                    <residual>0.000626958</residual>
+                    <label_id>4</label_id>
+                </marker>
+                <marker id="0:ffa3">
+                    <position>0.0307223,0.000283778,-0.0228529</position>
+                    <size>0.012</size>
+                    <residual>0.000478064</residual>
+                    <label_id>5</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property>
+                    <name>NodeName</name>
+                    <value>Hugh_Pr_11</value>
+                    <defaultValue>Hugh_Pr_11</defaultValue>
+                </property>
+                <property>
+                    <name>Color</name>
+                    <value>11010194</value>
+                    <defaultValue>11010194</defaultValue>
+                </property>
+                <property>
+                    <name>DisplayLabel</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>UserData</name>
+                    <value>111</value>
+                    <defaultValue>133</defaultValue>
+                </property>
+                <property>
+                    <name>MinimumMarkerCount</name>
+                    <value>5</value>
+                </property>
+                <property>
+                    <name>MaxMarkerDeflection</name>
+                    <value>0.006000</value>
+                </property>
+                <property>
+                    <name>LocalizeSearch</name>
+                    <value>true</value>
+                </property>
+                <property>
+                    <name>MarkerLocation0</name>
+                    <value>0.00186998,0.000188887,0.0708599</value>
+                    <defaultValue>0.00186998,0.000188887,0.0708599</defaultValue>
+                </property>
+                <property>
+                    <name>MarkerLocation1</name>
+                    <value>0.00526965,0.000113845,-0.041667</value>
+                    <defaultValue>0.00526965,0.000113845,-0.041667</defaultValue>
+                </property>
+                <property>
+                    <name>MarkerLocation2</name>
+                    <value>-0.0840556,-0.000862479,-0.0112262</value>
+                    <defaultValue>-0.0840556,-0.000862479,-0.0112262</defaultValue>
+                </property>
+                <property>
+                    <name>MarkerLocation3</name>
+                    <value>0.0461938,0.00027591,0.0048852</value>
+                    <defaultValue>0.0461938,0.00027591,0.0048852</defaultValue>
+                </property>
+                <property>
+                    <name>MarkerLocation4</name>
+                    <value>0.0307223,0.000283778,-0.0228529</value>
+                    <defaultValue>0.0307223,0.000283778,-0.0228529</defaultValue>
+                </property>
+            </properties>
+            <MarkerNames ReorderMarkers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <Marker name="Marker1" oldName="Marker1"/>
+                <Marker name="Marker2" oldName="Marker2"/>
+                <Marker name="Marker3" oldName="Marker3"/>
+                <Marker name="Marker4" oldName="Marker4"/>
+                <Marker name="Marker5" oldName="Marker5"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" oldName="Head_4" /> where the values in name and oldName are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </MarkerNames>
+            <MarkerColors>
+                <!--The "name" tag in this section corresponds with the "name" values in <MarkerNames>.-->
+                <Marker name="Marker1" color="146 0 168" movable="false"/>
+                <Marker name="Marker2" color="146 0 168" movable="false"/>
+                <Marker name="Marker3" color="146 0 168" movable="false"/>
+                <Marker name="Marker4" color="146 0 168" movable="false"/>
+                <Marker name="Marker5" color="146 0 168" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </MarkerColors>
+            <MarkerSticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <MarkerNames>-->
+            </MarkerSticks>
+        </rigid_body>
+    </NodeAssets>
+</Profile>
