@@ -47,7 +47,7 @@ the amount of rendering required.
 facing a large screen or videowall displaying the output of the performance_display.py script.
 A possible setup can be seen below:
 
-![screenshot./images/reconfigurations.png)
+![screenshot](./images/reconfigurations.png)
 
 ### 3.2. Motive/OSCServer
 
