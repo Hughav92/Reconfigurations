@@ -7,7 +7,7 @@ that an Optitrack system is in use. However, other motion capture systems can be
 important aspect is that the positions of markers or pre-defined rigid bodies are streamed to the
 performance system over OSC using the address patterns defined below.
 
-### 1. Contents ###
+## 1. Contents
 
 control_display.py - Script for the control display to be utilsed by a performer.
 performance_display.py - Script for the display that should be presented to the audience.
@@ -23,7 +23,7 @@ which is used to stream rigid body position data in realtime from Motive. - TODO
 requirements (folder) - Contains a Jupyter Notebook that should be run to install all required
 Python libraries. This should be done before all else.
 
-### 2. System Data Structure ###
+## 2. System Data Structure
 
 The data flow of the system is as follows:
 
@@ -33,9 +33,9 @@ using the broadcast function.
 3. The control_display.py script processes the data (including performer modifications) and dispatches
 the data in two streams to the performance_display.py script and sonification pd patch.
 
-### 3. Setting Up a Performance ###
+## 3. Setting Up a Performance
 
-## 3.1. Important Notes ##
+### 3.1. Important Notes
 
 1. A performance works best if the control display, performance display, Motive/OSCServer,
 and the sonification patch are running on separate computers.
@@ -47,9 +47,9 @@ the amount of rendering required.
 facing a large screen or videowall displaying the output of the performance_display.py script.
 A possible setup can be seen below:
 
-![screenshot](reconfigurations.png)
+![screenshot./images/reconfigurations.png)
 
-## 3.2. Motive/OSCServer ##
+### 3.2. Motive/OSCServer
 
 1. Load the calibration file. The ground plane has been set so that the top-left corner of a 2x2m
 performance area at ground level is coordinate (0, 0, 0).
@@ -76,7 +76,7 @@ are set to those of the computer running the control_display.py script and the p
 used within the script respectively.
 6. Run the OSCstream.py script
 
-## 3.3. Control Display ##
+### 3.3. Control Display
 
 1. Ensure that the utils.py script is in the same directory as the control_display.py script.
 2. In the control_display.py script, ensure that the num_markers variable (line 36) is set to the
@@ -89,7 +89,7 @@ computer running the performance_display.py script and the port used within the 
 computer running the sonification pd patch and the port used within the patch respectively.
 6. Run the control_display.py script.
 
-## 3.4 Performance Display ##
+### 3.4 Performance Display
 
 1. Ensure that the utils.py script is in the same directory as the control_display.py script.
 2. In the performance_display.py script, ensure that the num_markers variable (line 61) is set to the
@@ -98,7 +98,7 @@ number of markers being used.
 control_display.py script.
 4. Run the performance_display.py script. 
 
-## 3.5 Sonification ##
+### 3.5 Sonification
 
 1. Run the sonification.pd patch.
 2. In the oscreceiver subpatch, ensure that the argument in the message box containing 'listen' is
@@ -106,7 +106,7 @@ set to the port argument given in the client_pd object in the control_display pa
 
 The system is now set up.
 
-### 4. Using the Control Display Interface in Performance ###
+## 4. Using the Control Display Interface in Performance
 
 During performance, one performer takes the role of configuring the constelations of bodies in the
 control display. The following details its operation.
