@@ -9,18 +9,18 @@ performance system over OSC using the address patterns defined below.
 
 ## 1. Contents
 
-control_display.py - Script for the control display to be utilsed by a performer.
-performance_display.py - Script for the display that should be presented to the audience.
-sonification.pd - The sonification Pure Data patch.
-utils.py - Classes and functions used by control_display.py and performance_display.py. This
+1. control_display.py - Script for the control display to be utilsed by a performer.
+2. performance_display.py - Script for the display that should be presented to the audience.
+3. sonification.pd - The sonification Pure Data patch.
+4. utils.py - Classes and functions used by control_display.py and performance_display.py. This
 should always be kept in the same directory as the script being run when running either of
 the above in order to ensure correct funtionality.
-motive_assets (folder) - Contains rigid body data for the 30 rigid bodies that can be used in
+5. motive_assets (folder) - Contains rigid body data for the 30 rigid bodies that can be used in
 performance, both as individual files (if only a subset are to be used) and as a collected file
-motive_calibration (folder) - Contains the Motive calibration file for the portal setup.
+6. motive_calibration (folder) - Contains the Motive calibration file for the portal setup.
 motive_osc (folder) - Contains a modified version of the [NatNetClient SDK](https://optitrack.com/support/downloads/developer-tools.html#natnet-sdk)
 which is used to stream rigid body position data in realtime from Motive. - TODO
-requirements (folder) - Contains a Jupyter Notebook that should be run to install all required
+7. requirements (folder) - Contains a Jupyter Notebook that should be run to install all required
 Python libraries. This should be done before all else.
 
 ## 2. System Data Structure
