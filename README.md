@@ -51,17 +51,15 @@ A possible setup can be seen below:
 
 ### 3.2. Motive/OSCServer
 
-1. Load the calibration file. The ground plane has been set so that the top-left corner of a 2x2m
-performance area at ground level is coordinate (0, 0, 0).
-2. Load the rigid body assets and ensure that the IDs of each assest are set with the following
+1. Load the rigid body assets and ensure that the IDs of each assest are set with the following
 scheme:
 
 Rigid Body 1 = 101, Rigid Body 2 = 102, ..., Rigid Body 30 = 130
 
-3. Enable only the rigid bodies that are to be used in performance. So if only 10 are to be used,
+2. Enable only the rigid bodies that are to be used in performance. So if only 10 are to be used,
 for example, enable only rigid bodies 1 to 10 (these must be in numerical order! So if only 10 are
 to be used, these must be rigid body 1 to 10, and not 21 to 30 for example).
-4. Open the broadcast pane and ensure that the following settings correspond:
+3. Open the broadcast pane and ensure that the following settings correspond:
 
 Broadcast Frame Data: On
 Local Interface: Loopback
@@ -71,10 +69,10 @@ Scale: 1
 Command Port: 1510
 Data Port: 1511
 
-5. Open the OSCstream.py script, and ensure that the oscIP variable and oscPort variable
+4. Open the OSCstream.py script, and ensure that the oscIP variable and oscPort variable
 are set to those of the computer running the control_display.py script and the port
 used within the script respectively.
-6. Run the OSCstream.py script
+5. Run the OSCstream.py script
 
 ### 3.3. Control Display
 
